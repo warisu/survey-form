@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+body {
+  background-image: url("https://inmediatum.com/wp-content/uploads/2020/02/Why-programming-is-the-skill-you-have-to-learn.jpg")
+}
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  color: #f5f6f7;
+  font-family: 'Gayathri' sans-serif;
+  font-size: 20px;
+  background-color: rgba(27, 27, 50, 95%);
+}
+@media (max-width: 400px) {
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 100%
+  }
+} 
+label{
+  display: block;
+  margin: 0.6rem 0;
+}
+h1, p {
+  text-align: center;
+  color: #ffffff;
+}
+#description{
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-family: Brush Script MT, sans-serif;
+}
+form{
+  margin: auto 0;
+  padding-bottom: 4em;
+}
+fieldset {
+ padding: 2em;
+ border-collapse: collapse;
+ border: none;
+ margin-top: -60px;
+}
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0 15px 0; 
+  min-height: 3em;
+  border-radius: 5px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  display: block;
+  width: 89%;
+  margin: 0 auto;
+  font-size: 1em;
+  background-color: hsla(120, 100%, 50%, 0.6);
+  border-color: hsla(120, 100%, 50%, 0.6);
+}
